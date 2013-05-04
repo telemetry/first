@@ -38,21 +38,21 @@
 		DE2BA696152021B700BC9DB2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DE2BA698152021B700BC9DB2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DE2BA69A152021B700BC9DB2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DE2BA69E152021B700BC9DB2 /* first-Info.plist */ = {isa = PBXFileReference; path = "first-Info.plist"; sourceTree = "<group>"; };
+		DE2BA69E152021B700BC9DB2 /* first-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "first-Info.plist"; sourceTree = "<group>"; };
 		DE2BA6A0152021B700BC9DB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DE2BA6A2152021B700BC9DB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DE2BA6A4152021B700BC9DB2 /* first-Prefix.pch */ = {isa = PBXFileReference; path = "first-Prefix.pch"; sourceTree = "<group>"; };
-		DE2BA6A5152021B700BC9DB2 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE2BA6A4152021B700BC9DB2 /* first-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "first-Prefix.pch"; sourceTree = "<group>"; };
+		DE2BA6A5152021B700BC9DB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DE2BA6A6152021B700BC9DB2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DE2BA6A9152021B700BC9DB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		DE2BA6AC152021B700BC9DB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		DE2BA6AE152021B700BC9DB2 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		DE2BA6AE152021B700BC9DB2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DE2BA6AF152021B700BC9DB2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DE2BA6B6152021B700BC9DB2 /* firstTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firstTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE2BA6B7152021B700BC9DB2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		DE2BA6BF152021B700BC9DB2 /* firstTests-Info.plist */ = {isa = PBXFileReference; path = "firstTests-Info.plist"; sourceTree = "<group>"; };
+		DE2BA6BF152021B700BC9DB2 /* firstTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "firstTests-Info.plist"; sourceTree = "<group>"; };
 		DE2BA6C1152021B700BC9DB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DE2BA6C3152021B700BC9DB2 /* firstTests.h */ = {isa = PBXFileReference; path = firstTests.h; sourceTree = "<group>"; };
+		DE2BA6C3152021B700BC9DB2 /* firstTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = firstTests.h; sourceTree = "<group>"; };
 		DE2BA6C4152021B700BC9DB2 /* firstTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = firstTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -375,6 +375,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "first/first-Prefix.pch";
 				INFOPLIST_FILE = "first/first-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -386,6 +387,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "first/first-Prefix.pch";
 				INFOPLIST_FILE = "first/first-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -444,6 +446,7 @@
 				DE2BA6CA152021B700BC9DB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE2BA6CB152021B700BC9DB2 /* Build configuration list for PBXNativeTarget "firstTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +455,7 @@
 				DE2BA6CD152021B700BC9DB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
